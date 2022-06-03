@@ -5,6 +5,7 @@ var level = 0;
 
 var started = false;
 
+alert("DISCLAIMER: First press a key to start ,then press the buttons as suggested by computer starting from the very first button you pressed and in a sequence");
 $(".btn").click(function(){
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
